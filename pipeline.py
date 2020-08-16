@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/python
 
 pipeline {
     agent { docker { image 'python:alpine' } }
